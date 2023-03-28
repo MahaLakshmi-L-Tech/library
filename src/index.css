@@ -1,13 +1,290 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@media screen and (min-width: 600px) {
+  .nav-item {
+    padding: 7px;
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+  }
+  .nav-link:hover {
+    border-bottom: 1px solid #006fb9;
+    color: #006fb9;
+  }
+  .navbar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background: white;
+    justify-content: flex-start;
+    box-shadow: 1px 3px 7px #1111110f;
+  }
+  .logoImage {
+    height: 100px;
+  }
+  .title {
+    margin-bottom: -19px;
+  }
+  .container {
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 0px !important;
+    background-color: orange;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: white;
+  }
+  .libcontainer {
+    display: flex;
+    /* flex-direction: row; */
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titlelibcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titlelibcontainerbottom {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-repeat: no-repeat; */
+  }
+  .imageHeight {
+    height: 500px;
+  }
+  .carasoulcontainer {
+    margin-top: 30px;
+  }
+
+  .titlelibcontainerbottomtop {
+    background-image: url("./components/images/background.jpg") !important;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .titlecontainerbottom {
+    width: 200%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 20px !important;
+  }
+  .titlecontainerbottomnavbar {
+    display: flex;
+    width: 40%;
+  }
+  .arrow {
+    margin-left: 70px;
+    margin-right: 20px;
+  }
+  .me-auto {
+    margin-right: 10px !important;
+  }
+  .bookimageHeight {
+    height: 200px;
+    width: 120px;
+    margin: 30px;
+  }
+  .imgheight {
+    margin-left: 30%;
+  }
+  .bookcontainer {
+    width: 1500px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    /* justify-content: space-around; */
+  }
+  .searchBar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .forminput {
+    margin: 10px;
+    width: 250px;
+    color: white !important;
+    border-radius: 3px !important;
+    background-color: rgb(90, 87, 87) !important;
+  }
+  .inputsearchBar {
+    width: 80% !important;
+  }
+  .menuitems {
+    display: flex;
+    flex-direction: column;
+  }
+  .menuitemsHeader {
+    display: flex;
+    width: 100%;
+    background-color: orange;
+    justify-content: space-between !important;
+    height: 40px !important;
+  }
+
+  .menuitemsHeaderName {
+    display: flex;
+    flex-grow: 10;
+    font-size: 20px !important;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 10px;
+    color: white;
+  }
+  .menuitemsHeaderSocial {
+    display: flex;
+    width: 20%;
+    margin-top: 6px;
+    flex-grow: 2;
+    color: white;
+    font-size: 20px !important;
+    font-family: "Times New Roman", Times, serif;
+    justify-content: space-around;
+  }
+  .titleContainer {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+  }
+
+  .titleTag1 {
+    flex: 50%;
+  }
+  .titleTag2 {
+    flex: 50%;
+  }
+
+  .buttonSearch {
+    background-color: orange !important;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (max-width: 600px) {
+  .navbar > .container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .menuitemsHeader {
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+  }
+
+  .menuitems {
+    display: flex !important;
+    flex-direction: row !important;
+    background-color: rgb(247, 153, 2);
+    width: 100% !important;
+  }
+  .titleContainer {
+    display: flex;
+    margin-right: 30px;
+  }
+  .menuitemsHeaderName {
+    display: flex;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 10px;
+    color: white;
+  }
+  .menuitemsHeaderSocial {
+    color: white;
+    display: flex;
+    font-family: "Times New Roman", Times, serif;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .nav-item {
+    padding: 7px;
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 300;
+  }
+  .nav-link:hover {
+    border-bottom: 1px solid #006fb9;
+    color: #006fb9;
+  }
+
+  .searchBar {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .inputsearchBar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px !important;
+    align-content: center;
+  }
+  .forminput {
+    margin-bottom: 5px !important;
+    width: 80% !important;
+    color: white !important;
+    background-color: rgb(90, 87, 87) !important;
+    border-radius: 4px !important;
+  }
+  .buttonSearch {
+    width: 100% !important;
+    background-color: orange !important;
+  }
+  .titlelibcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .libcontainer,
+  .titlelibcontainerbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bookcontainer {
+    /* width: 1500px; */
+    align-items: center;
+    justify-items: center;
+    display: block;
+  }
+  .bookimageHeight {
+    height: 10%;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 20px;
+  }
+  .titlecontainerbottomnavbar {
+    display: block !important;
+  }
+  .navbar-nav {
+    display: block !important;
+  }
+  .titlecontainerbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
