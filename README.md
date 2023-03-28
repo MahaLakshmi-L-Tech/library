@@ -13,7 +13,7 @@ ReactJS, HTML, CSS, JavaScript
 ## Screen Shots
 
 1.Desktop Version
-![Desktop snapshot](desktop1.png "Library theme")
+![Desktop snapshot](src/components/screenshot/desktop1.png "Library theme")
 2.Mobile Version
 
 ## Running the applicaition
