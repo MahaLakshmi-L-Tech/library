@@ -13,7 +13,7 @@ ReactJS, HTML, CSS, JavaScript
 ## Screen Shots
 
 1.Desktop Version
-![alt tag](\src\components\screenshot\desktop1.png "Employee Data title")
+![alt tag](/src/components/screenshot/desktop1.png "Employee Data title")
 2.Mobile Version
 
 ## Running the applicaition
